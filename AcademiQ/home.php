@@ -15,7 +15,7 @@ session_start();
 
 
 
-<!-- Add diri ang condition If unza nga page gi click -->
+<!-- add pa dre condition -->
 
 
 
