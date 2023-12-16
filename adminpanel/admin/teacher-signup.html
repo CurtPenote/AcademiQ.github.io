@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../register_login/css/style.css">
+    <title>Sign up</title>
+</head>
+
+<body>
+    <nav class="nav-signup">
+        <img src="../../register_login/assets/img/logo.svg" alt="">
+        <div class="right-nav">
+            <a href="../../signupcover.php"><button class="close-button">X</button></a>
+            <h1 class="current-page-title">Sign up</h1>
+        </div>
+    </nav>
+
+    <main class="signup">
+        <div class="left-signup">
+            <img src="../../register_login/assets/img/signup.png" alt="">
+        </div>
+
+        <div class="right-signup">
+            <form action="register.php" id="signup-form" method="post">
+                <div class="input-group input-group-half">
+                    <input id="firstName" type="text" placeholder="First Name" name="first_name" required>
+                    <input id="lastName" type="text" placeholder="Last Name" name="last_name" required>
+                </div>
+                <div class="input-group input-group-full">
+                    <input id="email" type="text" placeholder="Email" name="email" required>
+                </div>
+                <div class="input-group input-group-half">
+                    <input id="password" type="password" placeholder="Password" name="password" required>
+                    <input id="confirm_password" type="password" placeholder="Confirm Password" name="confirm_password" required>
+                </div>
+                <button type="submit" name="submit" class="btn btn-primary">Register</button>
+
+                
+                <p class="text-centered prompt">Already have an Account? <a href="teacher-login.php">Log in</a></p>
+
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>

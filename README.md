@@ -1,1 +1,0 @@
-# AcademiQ.github.io
