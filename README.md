@@ -1,40 +1,35 @@
-AcademiQ
-Assessment Management Platform
+<h1>AcademiQ</h1> 
+<h2>Assessment Management Platform</h2>
 
-Description
-The Quiz System is a web-based application designed to facilitate the creation, management, and execution of quizzes/exams. It provides a user-friendly interface for teachers to create quizzes, allows students to attempt these quizzes, and offers administrators tools for overseeing the entire process.
+<h3>Description</h3>
+<p>The Quiz System is a web-based application designed to streamline the creation, administration, and execution of quizzes and exams. It offers an intuitive interface empowering teachers to generate quizzes, oversee student rankings and results, and enables students to engage with these assessments seamlessly.</p>
 
-Features
-Teacher Dashboard:
-Create and manage courses.
-Generate quizzes, add questions, and set time limits.
-Student Portal:
-Access quizzes within enrolled courses.
-Attempt quizzes, providing answers within the time limit.
-Admin Panel:
-Monitor overall system performance.
-Manage users, courses, and quizzes.
-Instructions for Deployment
-Installation:
+<h2>Features</h2>
 
-Clone the repository to your local machine.
-Navigate to the project directory.
-Install dependencies using npm install.
-Database Setup:
+<h3>Teacher Dashboard:</h3>
+<ul>
+  <li>Create and manage courses effortlessly.</li>
+  <li>Generate quizzes, incorporate questions, and set time constraints.</li>
+  <li>Implement randomized assessments for varied testing experiences.</li>
+  <li>Monitor result scores and percentage breakdowns.</li>
+  <li>Track rankings and status indicators (pass/fail/etc.).</li>
+</ul>
 
-Set up a MySQL database and import the provided SQL dump file.
-Update the database configuration in the .env file.
-Configuration:
+<h3>Student Dashboard:</h3>
+<ul>
+  <li>Take pending exams.</li>
+  <li>View Score and percentage.</li>
+  <li>See taken exams.</li>
+  <li>Create feedback with a personal ID or onanomous.</li>
+</ul>
 
-Rename .env.example to .env and update environment variables.
-Run the Application:
-
-Start the server using npm start.
-Access the application via the provided URL or localhost.
-Technology Stack
-Backend: Node.js, Express.js
-Frontend: HTML, CSS, JavaScript
-Database: MySQL
-Contributors
-John Doe @johndoe
-Jane Smith @janesmith
+<h3>Running the web application:</h3>
+<ul>
+  <li>Clone the repository, unzip and copy the file to Xampp/htdocs.</li>
+  <li>Open Xampp and start Apache and MySQL server.</li>
+  <li>Open Open the folder in vscode.</li>
+  <li>Navigate to the database file names .</li>
+  <li>In phpMyAdmin create a database named online_quiz_db.</li>
+  <li>Monitor result scores and percentage breakdowns.</li>
+  <li>Track rankings and status indicators (pass/fail/etc.).</li>
+</ul>
