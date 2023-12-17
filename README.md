@@ -33,3 +33,12 @@
   <li>Paste or import the sql code to the database.</li>
   <li>Search "http://localhost/academiq".</li>
 </ul>
+
+<h3>Contributors:</h3>
+<ul>
+  <li>Avielyn Balois</li>
+  <li>Curt Darryl Penote</li>
+  <li>Cherry Rose Silvano</li>
+  <li>Christa Jes Loreto</li>
+  <li>Floramae Bedolido</li>
+</ul>
