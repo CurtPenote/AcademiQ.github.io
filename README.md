@@ -27,9 +27,9 @@
 <ul>
   <li>Clone the repository, unzip and copy the file to Xampp/htdocs.</li>
   <li>Open Xampp and start Apache and MySQL server.</li>
-  <li>Open Open the folder in vscode.</li>
-  <li>Navigate to the database file names .</li>
   <li>In phpMyAdmin create a database named online_quiz_db.</li>
-  <li>Monitor result scores and percentage breakdowns.</li>
-  <li>Track rankings and status indicators (pass/fail/etc.).</li>
+  <li>Open Open the folder in vscode.</li>
+  <li>Navigate to the database file named online_quiz_db.sql.</li>
+  <li>Paste or import the sql code to the database.</li>
+  <li>Search "http://localhost/academiq".</li>
 </ul>
